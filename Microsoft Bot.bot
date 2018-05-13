@@ -1,0 +1,23 @@
+{
+    "name": "Microsoft Bot",
+    "description": "",
+    "secretKey": "",
+    "services": [
+        {
+            "appId": "",
+            "id": "f4c5b120-564c-11e8-9744-bde548fd7900",
+            "type": "endpoint",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "name": "http://localhost:3978/api/messages"
+        },
+        {
+            "type": "abs",
+            "name": "nodechatsamplebot",
+            "id": "nodechatsamplebot",
+            "tenantId": "d611f940-dc17-497a-9ea1-6d8746a76d25",
+            "subscriptionId": "071c30c1-a48f-44ef-9157-8c2d6486a8b6",
+            "resourceGroup": "nodechatsamplebot"
+        }
+    ]
+}
